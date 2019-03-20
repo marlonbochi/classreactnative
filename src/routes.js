@@ -2,9 +2,11 @@ import { createStackNavigator, createAppContainer } from 'react-navigation';
 
 // Pages
 import Main from './pages/main';
+import Product from './pages/product';
 
 const AppNavigator = createStackNavigator({
-    Main
+    Main,
+    Product
 }, {
     defaultNavigationOptions: {
         headerStyle: {
